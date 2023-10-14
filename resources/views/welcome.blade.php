@@ -145,11 +145,7 @@
         </div> <!-- /.top-feature -->
 
 
-        <!--
-   =============================================
-    About Company
-   ==============================================
-   -->
+
         <div class="about-compnay section-spacing">
             <div class="container">
                 <div class="row justify-content-center">
@@ -157,26 +153,20 @@
                     <div class="col-lg-8 col-12">
                         <div class="text">
                             <div class="theme-title-one">
-                                <h2>About Our Company</h2>
+                                <h2>About CASNOS MILA</h2>
                                 <p>The National Fund for Social Security for Non-Employees enjoys legal personality and
                                     material independence and recognizes its commercial nature in its relationship with
                                     others. Its tasks are: managing in-kind and cash payments for social insurance for
                                     non-employees, ensuring collection, monitoring contributions and collection
                                     disputes.</p>
-                            </div> <!-- /.theme-title-one -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                        </div> <!-- /.text -->
-                    </div> <!-- /.col- -->
-                </div> <!-- /.row -->
-            </div> <!-- /.container -->
-        </div> <!-- /.about-compnay -->
 
-
-        <!--
-   =============================================
-    Feature Banner
-   ==============================================
-   -->
         <div class="feature-banner section-spacing">
             <div class="opacity">
                 <div class="container">
@@ -196,7 +186,7 @@
             <div class="container">
                 <div class="theme-title-one">
                     <h2>Our NEWS</h2>
-                
+
                 </div> <!-- /.theme-title-one -->
                 <div class="wrapper">
                     <div class="row">
@@ -268,20 +258,20 @@
                         </div> <!-- /.col- -->
                     </div> <!-- /.row -->
                 </div> <!-- /.wrapper -->
-               
+
             </div> <!-- /.container -->
         </div> <!-- /.service-style-one -->
 
 
         <footer class="theme-footer-one">
-          
+
             <div class="bottom-footer">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-12">
                             <p>&copy; Copyrights 2023. All Rights Reserved.</p>
                         </div>
-                       
+
                     </div>
                 </div>
             </div> <!-- /.bottom-footer -->

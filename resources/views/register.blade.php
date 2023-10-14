@@ -47,9 +47,6 @@
                                     <label>Numero Register Commerce</label>
                                     <input required name="num_reg" type="text" class="form-control">
                                 </div>
-
-
-
                                 <div class="form-group first">
                                     <label>Email</label>
                                     <input required name="email" type="email" class="form-control">
@@ -63,13 +60,11 @@
                                     <option value="men">Men</option>
                                     <option value="female">Female</option>
                                 </select>
-
                                 <label class="text-muted">Situation</label>
                                 <select name="state" class="form-control">
                                     <option value="married">Married</option>
                                     <option value="cilebataire">Cilebataire</option>
                                 </select>
-
                                 <label class="text-muted">Birthday Date</label>
                                 <div class="form-group first">
                                     <input required name="date_nais" type="date" class="form-control">
@@ -78,7 +73,6 @@
                                 <div class="form-group first">
                                     <input required name="start_date" type="date" class="form-control">
                                 </div>
-
                                 <input type="submit" value="Register" style="background-color: rgb(21, 21, 92)"
                                     class="btn text-white btn-block">
                                 <div class="mt-3">

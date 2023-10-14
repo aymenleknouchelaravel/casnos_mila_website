@@ -17,12 +17,15 @@ class StartPoint
     public function handle(Request $request, Closure $next)
     {
         if (auth()->check()) {
-            if (auth()->user()->role == 'admin' ) {
+            if (auth()->user()->role == 'admin') {
                 // Redirect to the admin panel
                 return redirect('/admin/home');
             } elseif (auth()->user()->role == 'client') {
                 // Redirect to the client's home page
                 return redirect('/client/home');
+            } elseif (auth()->user()->role == 'manager') {
+                // Redirect to the client's home page
+                return redirect('/manager/home');
             }
         }
 

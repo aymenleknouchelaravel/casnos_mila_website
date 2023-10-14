@@ -10,4 +10,9 @@ class AdminController extends Controller
     {
         return view('admin.home');
     }
+
+    public function all_demandes()
+    {
+        return view('admin.all_demandes');
+    }
 }

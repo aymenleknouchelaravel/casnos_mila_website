@@ -1,6 +1,6 @@
-@extends('layouts.client')
+@extends('layouts.manager')
 
-@section('title', 'Client | Home')
+@section('title', 'Manager | Home')
 
 @section('header')
     <div class="content-wrapper">

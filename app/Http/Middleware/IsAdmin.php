@@ -17,7 +17,7 @@ class IsAdmin
     public function handle(Request $request, Closure $next)
     {
 
-        if (auth()->user()->role == 'client') {
+        if (auth()->user()->role == 'client' && auth()->user()->role == 'manager') {
             return redirect('/');
         } 
 

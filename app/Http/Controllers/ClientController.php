@@ -10,4 +10,9 @@ class ClientController extends Controller
     {
         return view('client.home');
     }
+
+    public function demande()
+    {
+        return view('client.new_demande');
+    }
 }

@@ -5,7 +5,7 @@ namespace App\Http\Middleware;
 use Closure;
 use Illuminate\Http\Request;
 
-class IsUser
+class IsManager
 {
     /**
      * Handle an incoming request.
@@ -16,11 +16,10 @@ class IsUser
      */
     public function handle(Request $request, Closure $next)
     {
-        
-        if (auth()->user()->role == 'admin' && auth()->user()->role == 'manager') {
+
+        if (auth()->user()->role == 'admin' && auth()->user()->role == 'client') {
             return redirect('/');
         }
-
         return $next($request);
     }
 }
