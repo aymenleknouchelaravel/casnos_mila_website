@@ -47,18 +47,8 @@
                                     <label>Numero Register Commerce</label>
                                     <input required name="num_reg" type="text" class="form-control">
                                 </div>
-                               
-                                {{-- options --}}
-                                <div class="form-group first">
-                                    <label>State</label>
-                                    <input required name="text" type="text" class="form-control">
-                                </div>
 
-                                {{-- options --}}
-                                <div class="form-group first">
-                                    <label>Sex</label>
-                                    <input required name="text" type="text" class="form-control">
-                                </div>
+
 
                                 <div class="form-group first">
                                     <label>Email</label>
@@ -68,6 +58,18 @@
                                     <label for="password">Password</label>
                                     <input required name="password" type="password" class="form-control" id="password">
                                 </div>
+                                <label class="text-muted">Sex</label>
+                                <select name="sex" class="form-control">
+                                    <option value="men">Men</option>
+                                    <option value="female">Female</option>
+                                </select>
+
+                                <label class="text-muted">Situation</label>
+                                <select name="state" class="form-control">
+                                    <option value="married">Married</option>
+                                    <option value="cilebataire">Cilebataire</option>
+                                </select>
+
                                 <label class="text-muted">Birthday Date</label>
                                 <div class="form-group first">
                                     <input required name="date_nais" type="date" class="form-control">
