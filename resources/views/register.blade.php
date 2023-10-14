@@ -27,13 +27,56 @@
                             <form action="/register" method="post">
                                 @csrf
                                 <div class="form-group first">
-                                    <label for="email">Email</label>
-                                    <input name="email" type="email" class="form-control" id="email">
+                                    <label>Name</label>
+                                    <input required name="name" type="text" class="form-control">
+                                </div>
+                                <div class="form-group first">
+                                    <label>Surname</label>
+                                    <input required name="surname" type="text" class="form-control">
+                                </div>
+
+                                <div class="form-group first">
+                                    <label>Phone Number</label>
+                                    <input required name="phone" type="number" class="form-control">
+                                </div>
+                                <div class="form-group first">
+                                    <label>Adresse Register Commerce</label>
+                                    <input required name="adresse_reg" type="text" class="form-control">
+                                </div>
+                                <div class="form-group first">
+                                    <label>Numero Register Commerce</label>
+                                    <input required name="num_reg" type="text" class="form-control">
+                                </div>
+                               
+                                {{-- options --}}
+                                <div class="form-group first">
+                                    <label>State</label>
+                                    <input required name="text" type="text" class="form-control">
+                                </div>
+
+                                {{-- options --}}
+                                <div class="form-group first">
+                                    <label>Sex</label>
+                                    <input required name="text" type="text" class="form-control">
+                                </div>
+
+                                <div class="form-group first">
+                                    <label>Email</label>
+                                    <input required name="email" type="email" class="form-control">
                                 </div>
                                 <div class="form-group last mb-4">
                                     <label for="password">Password</label>
-                                    <input name="password" type="password" class="form-control" id="password">
+                                    <input required name="password" type="password" class="form-control" id="password">
                                 </div>
+                                <label class="text-muted">Birthday Date</label>
+                                <div class="form-group first">
+                                    <input required name="date_nais" type="date" class="form-control">
+                                </div>
+                                <label class="text-muted">Start Activity Date</label>
+                                <div class="form-group first">
+                                    <input required name="start_date" type="date" class="form-control">
+                                </div>
+
                                 <input type="submit" value="Register" style="background-color: rgb(21, 21, 92)"
                                     class="btn text-white btn-block">
                                 <div class="mt-3">
